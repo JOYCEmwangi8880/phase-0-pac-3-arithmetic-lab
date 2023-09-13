@@ -5,17 +5,17 @@ function preserveDecimal(string) {
     return parseFloat(string);
   }
 
-  function add(j, w) {
-    return j + w;
+  function add(a, b) {
+    return a + b;
   }
-  function subtract(j, w) {
-    return j- w;
+  function subtract(a, b) {
+    return a- b;
   }
-  function multiply(j, w) {
-    return j * w;
+  function multiply(a, b) {
+    return a * b;
   }
-  function divide(j, w) {
-    return j / w;
+  function divide(a, b) {
+    return a / b;
   }
   function increment(n) {
     return n + 1;
@@ -23,5 +23,5 @@ function preserveDecimal(string) {
   function decrement(n) {
     return n - 1;
   }
-  
+
   
